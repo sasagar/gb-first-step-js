@@ -8,7 +8,7 @@
     - プログラムを書くために必要な知識
         - [変数](writingPrograms/01-variables.md)
         - [配列](writingPrograms/02-array.md)
-        - [連想配列とオブジェクト](writingPrograms/03-assocArray.md)
+        - [連想配列とJSON](writingPrograms/03-assocArray.md)
         - [条件分岐](writingPrograms/04-if.md)
         - [繰り返し処理](writingPrograms/05-loop.md)
         - [関数](writingPrograms/06-functions.md)
