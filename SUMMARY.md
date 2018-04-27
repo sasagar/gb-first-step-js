@@ -16,4 +16,5 @@
         - [記法の種類](writingJS/01-syntax.md)
           - [コメント](writingJS/01-00-comments.md)
           - [変数宣言](writingJS/01-01-variables.md)
+          - [配列](writingJS/01-02-array.md)
         - [同期処理と非同期処理](writingJS/02-syncasync.md)
