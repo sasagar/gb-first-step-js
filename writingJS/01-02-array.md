@@ -32,7 +32,7 @@ const example = [ 10, 20, 30 ];
 
 ```
 const example = [ 10, 20, 30 ];
-echo example[2];
+console.log( example[2] );
 // 出力内容: 30
 ```
 
@@ -43,7 +43,7 @@ echo example[2];
 ```
 const example = [ 10, 20, 30 ];
 example.push(40); // 40が末尾に追加される。
-echo example[3];
+console.log( example[3] );
 // 出力内容: 40
 ```
 
@@ -60,7 +60,7 @@ const example2 = [ 40, 50, 60 ];
 const example = example1.concat(example2); // example1 の後ろに example2 がくっついて exampleになる
 // このときのexampleは [ 10, 20, 30, 40, 50, 60 ]
 
-echo example[5];
+consolo.log( example[5] );
 // 出力内容: 60
 ```
 
@@ -74,7 +74,7 @@ const example1 = [ 10, 20, 30 ];
 const example = example1.concat( 40 ); // example1 の後ろに 40 という値がくっついて exampleになる
 // このときのexampleは [ 10, 20, 30, 40 ]
 
-echo example[3];
+console.log( example[3] );
 // 出力内容: 40
 ```
 
@@ -90,7 +90,7 @@ echo example[3];
 const example = [ 10, 20, 30, 40 ];
 
 example.splice( 2, 1 ); // 2番目の要素から1つ消す
-echo example[2];
+console.log( example[2] );
 // 出力内容: 40
 ```
 
@@ -113,7 +113,7 @@ echo example.length; // exampleの要素数を出力する
 ```
 const example = [ 10, 20, 30, 40 ];
 
-echo example[ example.length - 1 ]; // 個数から1を引けば最後の要素のインデックスになる
+console.log( example[ example.length - 1 ] ); // 個数から1を引けば最後の要素のインデックスになる
 // 出力内容: 40
 ```
 
@@ -128,7 +128,7 @@ echo example[ example.length - 1 ]; // 個数から1を引けば最後の要素�
 const example = [ 10, 20, 30, 40 ];
 
 const index = example.indexOf( 20 ); // 20という値が何番目にあるのか探して、何番目かをindexに入れる
-echo example[index];
+console.log( example[index] );
 // 出力内容: 20
 ```
 
