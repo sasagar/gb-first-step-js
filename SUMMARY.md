@@ -21,3 +21,4 @@
           - [関数を書く](writingJS/01-04-functions.md)
           - [条件分岐と繰り返しの記述](writingJS/01-05-ifloop.md)
         - [同期処理と非同期処理](writingJS/02-syncasync.md)
+        - [DOM操作の書き方](writingJS/03-dom.md)
