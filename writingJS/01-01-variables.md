@@ -73,7 +73,7 @@ const example;
 今度は再宣言だけで無く、再代入すらできない。
 
 ```
-let example = 10;
+const example = 10;
 // 今のexampleは10
 example = 20;
 // エラーが出る: TypeError: Assignment to constant variable.
