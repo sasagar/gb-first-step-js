@@ -81,7 +81,7 @@ ES では、アロー関数という方法を採る。
 アロー関数は、処理を変数に入れ込むというイメージで書かれるので、こんな感じ。
 
 ```
-const example () => {
+const example = () => {
 	// ココに処理を書く
 }
 ```
@@ -99,7 +99,7 @@ example();
 古き良き JavaScript でも括弧の中に引数を入れたのと同じように書ける。
 
 ```
-example ( val ) => {
+const example = ( val ) => {
 	return val * 10;
 }
 
@@ -111,7 +111,7 @@ console.log( test );
 ただ、この場合、引数が一つなので、括弧を省略できるというルールがある。
 
 ```
-example val => {
+const example = val => {
 	return val * 10;
 }
 
@@ -125,7 +125,7 @@ console.log( test );
 で、複数になったら、元の形を拡張しよう。
 
 ```
-example ( val1, val2 ) => {
+const example = ( val1, val2 ) => {
 	return val1 * val2;
 }
 
