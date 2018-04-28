@@ -102,7 +102,7 @@ console.log( example[2] );
 ```
 const example = [ 10, 20, 30, 40 ];
 
-echo example.length; // exampleの要素数を出力する
+console.log( example.length ); // exampleの要素数を出力する
 // 出力内容: 4
 ```
 
